@@ -45,37 +45,6 @@ AWS Inspector Code Security scans your application source code, dependencies, an
    - Versioning disabled
    - Inadequate logging configuration
 
-## AWS Inspector Setup
-
-### Step 1: Create Configuration
-
-![Create Configuration](images/create-configuration.png)
-
-1. Navigate to AWS Inspector in the AWS Console
-2. Go to Code Security section
-3. Create a new scan configuration
-4. Enable SAST, Secrets, and SCA scanning
-5. Configure scan frequency (Weekly recommended)
-
-### Step 2: Connect Repository
-
-![Code Repositories](images/code-repositories.png)
-
-1. Connect your code repository to Inspector
-2. Configure scan settings and triggers
-3. Set up integration with your SCM platform
-
-### Step 3: Review Results
-
-![Inspector Dashboard](images/inspector-dashboard.png)
-
-Inspector will scan and identify:
-- Security vulnerabilities in application code
-- Hardcoded secrets and credentials
-- Infrastructure misconfigurations
-- Dependency vulnerabilities
-
-## Running the Demo
 
 ### Prerequisites
 
@@ -88,7 +57,7 @@ Inspector will scan and identify:
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/aquavis12/aws-inspector-code-scan-demo
 cd aws-inspector-code-scan-demo
 ```
 
